@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on gender]]>
+    </line>
+    <line>
+      <![CDATA[clicking on gender button ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next Button]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button ]]>
+    </line>
+    <line>
+      <![CDATA[Select Age]]>
+    </line>
+    <line>
+      <![CDATA[Handeling age drop down ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next button ]]>
+    </line>
+    <line>
+      <![CDATA[TC checkErrorMsgIsDisplayed execution is started]]>
+    </line>
+    <line>
+      <![CDATA[check error message is Showing or not]]>
+    </line>
+    <line>
+      <![CDATA[Entering pin code ]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile num ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue button ]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is displaying]]>
+    </line>
+    <line>
+      <![CDATA[TC is Pass]]>
+    </line>
+    <line>
+      <![CDATA[TC checkErrorMsgIsDisplayed is completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[clicking on gender button ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button ]]>
+    </line>
+    <line>
+      <![CDATA[Handeling age drop down ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next button ]]>
+    </line>
+    <line>
+      <![CDATA[Entering pin code ]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile num ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue button ]]>
+    </line>
+    <line>
+      <![CDATA[TC validateTestPlansFromTextAndBanners execution is started]]>
+    </line>
+    <line>
+      <![CDATA[Fetching number of results from text ]]>
+    </line>
+    <line>
+      <![CDATA[Fetching number of results from Banners ]]>
+    </line>
+    <line>
+      <![CDATA[TC is passed ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Apply]]>
+    </line>
+    <line>
+      <![CDATA[9and9]]>
+    </line>
+    <line>
+      <![CDATA[TC validateTestPlansFromTextAndBanners is completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-11T15:36:58 IST" name="Suite" finished-at="2024-01-11T15:38:24 IST" duration-ms="85116">
+    <groups>
+    </groups>
+    <test started-at="2024-01-11T15:36:58 IST" name="Test" finished-at="2024-01-11T15:38:24 IST" duration-ms="85116">
+      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@57a3af25]" started-at="2024-01-11T15:37:33 IST" name="launchBrowser" finished-at="2024-01-11T15:37:50 IST" duration-ms="17191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@57a3af25]" started-at="2024-01-11T15:37:50 IST" name="enterDetails" finished-at="2024-01-11T15:38:05 IST" duration-ms="14741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on gender button ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button ]]>
+            </line>
+            <line>
+              <![CDATA[Handeling age drop down ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next button ]]>
+            </line>
+            <line>
+              <![CDATA[Entering pin code ]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile num ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@57a3af25]" started-at="2024-01-11T15:38:05 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-11T15:38:22 IST" duration-ms="17007" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC validateTestPlansFromTextAndBanners execution is started]]>
+            </line>
+            <line>
+              <![CDATA[Fetching number of results from text ]]>
+            </line>
+            <line>
+              <![CDATA[Fetching number of results from Banners ]]>
+            </line>
+            <line>
+              <![CDATA[TC is passed ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Apply]]>
+            </line>
+            <line>
+              <![CDATA[9and9]]>
+            </line>
+            <line>
+              <![CDATA[TC validateTestPlansFromTextAndBanners is completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTestPlansFromTextAndBanners -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@57a3af25]" started-at="2024-01-11T15:38:22 IST" name="closeBrowser" finished-at="2024-01-11T15:38:24 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+      <class name="coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode@8f4ea7c]" started-at="2024-01-11T15:36:58 IST" name="launchBrowser" finished-at="2024-01-11T15:37:12 IST" duration-ms="13355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="enterMemberDetails()[pri:0, instance:coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode@8f4ea7c]" started-at="2024-01-11T15:37:12 IST" name="enterMemberDetails" finished-at="2024-01-11T15:37:22 IST" duration-ms="10164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on gender]]>
+            </line>
+            <line>
+              <![CDATA[clicking on gender button ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next Button]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button ]]>
+            </line>
+            <line>
+              <![CDATA[Select Age]]>
+            </line>
+            <line>
+              <![CDATA[Handeling age drop down ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterMemberDetails -->
+        <test-method signature="checkErrorMsgIsDisplayed()[pri:0, instance:coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode@8f4ea7c]" started-at="2024-01-11T15:37:22 IST" name="checkErrorMsgIsDisplayed" finished-at="2024-01-11T15:37:25 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC checkErrorMsgIsDisplayed execution is started]]>
+            </line>
+            <line>
+              <![CDATA[check error message is Showing or not]]>
+            </line>
+            <line>
+              <![CDATA[Entering pin code ]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile num ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue button ]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is displaying]]>
+            </line>
+            <line>
+              <![CDATA[TC is Pass]]>
+            </line>
+            <line>
+              <![CDATA[TC checkErrorMsgIsDisplayed is completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkErrorMsgIsDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode@8f4ea7c]" started-at="2024-01-11T15:37:25 IST" name="closeBrowser" finished-at="2024-01-11T15:37:33 IST" duration-ms="8412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CF_TC551_Validate_Error_Msg_For_Pincode -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

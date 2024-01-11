@@ -1,0 +1,47 @@
+2024-01-11 01:00:58,167 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 01:01:08,515 [main] INFO CoverFox_Insurance - Clicking on gender
+2024-01-11 01:01:12,016 [main] INFO CoverFox_Insurance - Clicking on next Button
+2024-01-11 01:01:14,207 [main] INFO CoverFox_Insurance - Select Age
+2024-01-11 01:01:16,224 [main] INFO CoverFox_Insurance - Clicking on next button after adding age
+2024-01-11 01:01:18,579 [main] INFO CoverFox_Insurance - enter mobile
+2024-01-11 01:01:20,968 [main] INFO CoverFox_Insurance - Check error message is display or not
+2024-01-11 01:01:28,113 [main] INFO CoverFox_Insurance - Closing browser
+2024-01-11 01:01:29,430 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 01:01:46,382 [main] INFO CoverFox_Insurance - Clicking on gender button
+2024-01-11 01:01:52,523 [main] INFO CoverFox_Insurance - Clicking on Next button
+2024-01-11 01:01:54,764 [main] INFO CoverFox_Insurance - Handeling age drop down
+2024-01-11 01:01:55,417 [main] INFO CoverFox_Insurance - Clicking on next button after adding age
+2024-01-11 01:01:57,598 [main] INFO CoverFox_Insurance - Enter mobile pincode
+2024-01-11 01:01:57,929 [main] INFO CoverFox_Insurance - Enter mobile number
+2024-01-11 01:01:58,208 [main] INFO CoverFox_Insurance - Clicking on continue button after adding all address details
+2024-01-11 01:02:05,410 [main] INFO CoverFox_Insurance - Fetching number of results from text
+2024-01-11 01:02:13,552 [main] INFO CoverFox_Insurance - TC is passed
+2024-01-11 13:00:21,701 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 13:00:36,950 [main] INFO CoverFox_Insurance - Clicking on gender
+2024-01-11 13:00:40,087 [main] INFO CoverFox_Insurance - Clicking on next Button
+2024-01-11 13:00:42,169 [main] INFO CoverFox_Insurance - Select Age
+2024-01-11 13:00:43,754 [main] INFO CoverFox_Insurance - Clicking on next button after adding age
+2024-01-11 13:00:45,953 [main] INFO CoverFox_Insurance - enter mobile
+2024-01-11 13:00:48,282 [main] INFO CoverFox_Insurance - Check error message is display or not
+2024-01-11 13:00:55,375 [main] INFO CoverFox_Insurance - Closing browser
+2024-01-11 13:00:56,845 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 13:01:13,883 [main] INFO CoverFox_Insurance - Clicking on gender button
+2024-01-11 13:01:20,644 [main] INFO CoverFox_Insurance - Clicking on Next button
+2024-01-11 15:36:59,211 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 15:37:12,379 [main] INFO CoverFox_Insurance - Clicking on gender
+2024-01-11 15:37:16,325 [main] INFO CoverFox_Insurance - Clicking on next Button
+2024-01-11 15:37:18,490 [main] INFO CoverFox_Insurance - Select Age
+2024-01-11 15:37:20,395 [main] INFO CoverFox_Insurance - Clicking on next button after adding age
+2024-01-11 15:37:22,740 [main] INFO CoverFox_Insurance - enter mobile
+2024-01-11 15:37:25,156 [main] INFO CoverFox_Insurance - Check error message is display or not
+2024-01-11 15:37:32,295 [main] INFO CoverFox_Insurance - Closing browser
+2024-01-11 15:37:33,716 [main] INFO CoverFox_Insurance - launching Browser
+2024-01-11 15:37:50,904 [main] INFO CoverFox_Insurance - Clicking on gender button
+2024-01-11 15:37:57,847 [main] INFO CoverFox_Insurance - Clicking on Next button
+2024-01-11 15:38:00,150 [main] INFO CoverFox_Insurance - Handeling age drop down
+2024-01-11 15:38:00,756 [main] INFO CoverFox_Insurance - Clicking on next button after adding age
+2024-01-11 15:38:02,895 [main] INFO CoverFox_Insurance - Enter mobile pincode
+2024-01-11 15:38:03,183 [main] INFO CoverFox_Insurance - Enter mobile number
+2024-01-11 15:38:03,460 [main] INFO CoverFox_Insurance - Clicking on continue button after adding all address details
+2024-01-11 15:38:10,655 [main] INFO CoverFox_Insurance - Fetching number of results from text
+2024-01-11 15:38:18,816 [main] INFO CoverFox_Insurance - TC is passed

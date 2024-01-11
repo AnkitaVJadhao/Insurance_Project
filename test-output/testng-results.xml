@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[clicking on gender button ]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-11T00:38:42 IST" name="Default suite" finished-at="2024-01-11T00:39:07 IST" duration-ms="24942">
+    <groups>
+    </groups>
+    <test started-at="2024-01-11T00:38:42 IST" name="Default test" finished-at="2024-01-11T00:39:07 IST" duration-ms="24942">
+      <class name="coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@43bc63a3]" started-at="2024-01-11T00:38:42 IST" name="launchBrowser" finished-at="2024-01-11T00:39:00 IST" duration-ms="18404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@43bc63a3]" started-at="2024-01-11T00:39:00 IST" name="enterDetails" finished-at="2024-01-11T00:39:07 IST" duration-ms="6351" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='next-btn']"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84969f5cdc3ceaf54cbcc9a11a76758a, findElement {using=xpath, value=//div[@class='next-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21897/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84969f5cdc3ceaf54cbcc9a11a76758a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='next-btn']"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84969f5cdc3ceaf54cbcc9a11a76758a, findElement {using=xpath, value=//div[@class='next-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21897/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84969f5cdc3ceaf54cbcc9a11a76758a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at coverFoxUsingTestNg.CoverFoxHealthPlanPage.click_on_Nextbutton(CoverFoxHealthPlanPage.java:19)
+at coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies.enterDetails(CF_TC555_Validate_search_results_for_healthcare_policies.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on gender button ]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validateTestPlansFromTextAndBanners()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@43bc63a3]" started-at="2024-01-11T00:39:07 IST" name="validateTestPlansFromTextAndBanners" finished-at="2024-01-11T00:39:07 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='next-btn']"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84969f5cdc3ceaf54cbcc9a11a76758a, findElement {using=xpath, value=//div[@class='next-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21897/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84969f5cdc3ceaf54cbcc9a11a76758a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='next-btn']"}
+  (Session info: chrome=120.0.6099.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84969f5cdc3ceaf54cbcc9a11a76758a, findElement {using=xpath, value=//div[@class='next-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Ankita\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:21897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:21897/devtoo..., se:cdpVersion: 120.0.6099.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84969f5cdc3ceaf54cbcc9a11a76758a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at coverFoxUsingTestNg.CoverFoxHealthPlanPage.click_on_Nextbutton(CoverFoxHealthPlanPage.java:19)
+at coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies.enterDetails(CF_TC555_Validate_search_results_for_healthcare_policies.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTestPlansFromTextAndBanners -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies@43bc63a3]" started-at="2024-01-11T00:39:07 IST" name="closeBrowser" finished-at="2024-01-11T00:39:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CF_TC555_Validate_search_results_for_healthcare_policies -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
