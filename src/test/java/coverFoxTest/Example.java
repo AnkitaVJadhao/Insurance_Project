@@ -16,3 +16,5 @@ public class Example {
 	  System.out.println("Hii it's new class");
   }
 }
+//right click on project and click on team and then select Add to index option .
+//After that it will display the star mark on our file /folder/package where we have change 
