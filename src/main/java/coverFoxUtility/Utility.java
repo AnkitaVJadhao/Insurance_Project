@@ -18,7 +18,7 @@ import org.testng.Reporter;
 public class Utility
 {
 	
-	//
+	
 	public static void takeScreenshot(WebDriver driver, String TCID) throws IOException
 	{
 		Reporter.log("Taking screenshot", true);
